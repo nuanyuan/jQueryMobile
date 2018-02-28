@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	
+
+})
+</script>
+<style type="text/css">
+.img{
+    position:absolute;
+    left:-10px;
+    top:2px;
+    max-height:150px;
+    max-width:100px;
+}
+.del {
+    text-decoration:line-through;
+}
+.red {
+    color:red;
+}
+b{
+    color:blue;
+    font-weight:bold;
+}
+
+</style>
+</head>
+<body>
+<div data-role="page" id="page">
+    <div data-role="header">
+        <h1>格式化列表</h1>
+    </div>
+    <div data-role="content">    
+        <ul data-role="listview" data-filter="true">
+            <li data-role="list-divider">衣服精选榜
+                <span class="ui-li-count">3</span>
+            </li>        
+            <li><a href="#"><img class="img" src="images/1.jpg" alt=""/>
+                <h3>原价:<span class="del">128.00</span></h3>
+                <h3>折扣价:<span class="red">115.00</span></h3>
+                <p>2013秋季必备牛仔长裤 韩版猫爪破洞垮裤 乞丐裤 小脚牛仔裤 ...</p>
+                <p>喜欢数:<b>3969</b></p>
+                <p><img src="images/89.png" alt=""/></p>
+                <p class="ui-li-aside">剩余时间：<b>4天</b></p>
+            </a></li>
+            <li><a href="#"><img class="img" src="images/2.jpg" alt=""/>
+                <h3>原价:<span class="del">99.00</span></h3>
+                <h3>折扣价:<span class="red">88.00</span></h3>
+                <p>2013秋冬新款女韩版公主名缓复古小香风细格子修身长袖毛呢连...</p>
+                <p>喜欢数:<b>116</b></p>
+                <p><img src="images/89.png"  alt=""/></p>
+                <p class="ui-li-aside">剩余时间：<b>5天</b></p>
+            </a></li>
+            <li><a href="#"><img class="img" src="images/3.jpg" alt=""/>
+                <h3>原价:<span class="del">140.00</span></h3>
+                <h3>折扣价:<span class="red">133.00</span></h3>
+                <p>韩模实拍秋冬新款韩国代购修身显瘦中长款毛呢大衣 毛呢外套...</p>
+                <p>喜欢数:<b>26</b></p>
+                <p><img src="images/95.png" alt=""/></p>
+                <p class="ui-li-aside">剩余时间：<b>3天</b></p>
+            </a></li>
+        </ul>     
+    </div>
+    <div data-role="footer">
+        <h4>脚注</h4>
+    </div>
+</div>
+</body>
+</html>
